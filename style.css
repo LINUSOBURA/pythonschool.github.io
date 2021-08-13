@@ -1,0 +1,247 @@
+/*---------------Nav-section-------------*/
+#nav-bar{
+	background-color: #5d3175;
+	width: 100%;
+
+}
+
+.navbar-brand img{
+	height: 100px;
+	width: 150px;
+	margin-left: 20px;
+}
+.navbar-nav a{
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+}
+.navbar-nav{
+	margin-left: auto;
+
+}
+.navbar-nav a:hover{
+	color: red;
+}
+.navbar-toggler{
+	color: #fff;
+}
+.navbar-toggler-icon{
+	background-image: url("images/bar/png");
+}
+/*--------------------------Banner Section-----------------------*/
+#banner{
+	background-color: #5d3175;
+	padding-top: 100px;
+}
+#banner h1{
+	font-weight: 600 !important;
+	color: #fff;
+}
+#banner p{
+	color: #fff;
+}
+#banner a{
+	text-decoration: none;
+	color: #fff
+
+}
+#banner a img{
+	width: 60px;
+	height: 60px;
+}
+.rounded{
+	height: 250px;
+	width: 300px;
+}
+/*----------------------About Us section---------------------------*/
+#about-us{
+	background-color: #c2b5c7;
+	margin-top: 50px;
+	padding-top: 20px;
+	border-radius: 10px;
+	padding-bottom: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.title{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 20px;
+
+}
+.title::before{
+	content: "";
+	background: #5d3175;
+	height: 5px;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	transform: translateY(50px);
+}
+.title::after{
+	content: "";
+	background: #5d3175;
+	height: 10px;
+	width: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	transform: translateY(7px);
+}
+.description{
+	padding-top: 50px;
+}
+.srv{
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+
+/*----------------------------Team section----------------------------*/
+#team{
+	background-color: #c2b5c7;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.carousel-item img{
+	width: 50px;
+	height: 500px;
+}
+#carouselExampleCaptions{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*---------------------------Courses Section----------------------*/
+#courses{
+	background-color: #c2b5c7;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+#courses a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600px;
+	padding-top: 50px;
+}
+#courses a:hover{
+	color: #5d3175;
+	font-weight: 600;
+}
+#courses .col-md-3{
+	padding-top: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+#courses .col-md-3 img{
+	padding-left: 10px;
+	width: 200px;
+	height: 100px;
+}
+.button{
+	border: none;
+	margin-bottom: 50px;
+	border-radius: 50px;
+	background-color: #912fc2;
+	margin-left: 530px;
+}
+
+/*-----------------------social media section------------------*/
+#social-media{
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+#social-media p{
+	font-size: 30px;
+	font-weight: 600;
+	color: #5d3175;
+	padding-bottom: 30px;
+}
+.social-icons img{
+	width: 60px;
+	height: 60px;
+	padding: 10px 10px;
+	transition: 0.5s;
+}
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
+
+/*----------------------footer section-----------------------------*/
+#footer{
+	background-color: black;
+	width: 100%;
+}
+.footer-img img{
+	height: 100px;
+	width: 150px;
+	margin-top: 50px;
+}
+.partners-p{
+	padding-top: 70px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600 !important;
+	text-align: right;
+}
+.footer-menu{
+	padding-top: 50px;
+
+}
+.footer-menu ul{
+	list-style-type: none;
+}
+.footer-menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600 !important;
+}
+.partners{
+	padding-top: 30px;
+}
+.partners img{
+	width: 100px;
+	height: 80px;
+	padding: 10px 10px;
+}
+.end{
+	color: #fff;
+	font-size: 20px;
+	font-size: 600 !important;
+	padding-top: 30px;
+	padding-left: 100px;
+}
+.form{
+	width: 100%;
+	padding-left: 100px;
+}
+.form textarea{
+	width:200px; 
+	height: 100px;
+	border-radius: 10px;
+}
+.form input{
+	border-radius: 10px;
+	width: 200px;
+}
+.form button{
+	width:100px;
+	border: none;
+	border-radius: 10px;
+	background-color: #fff; 
+	margin-left: 50px;
+}
+.rights{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
